@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/haut_page"
+        >
+
+        <TextView
+            android:id="@+id/titre_jeu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Mastermind"
+            android:textColor="@color/white"
+            android:textSize="58sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:fontFamily="@font/migh"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titre_jeu"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            >
+
+            <Button
+                android:id="@+id/ordinateur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joueur vs Ordinateur"
+                android:layout_margin="8dp"
+                android:textAllCaps="true"
+                style="@style/AppButton"
+                android:background="@drawable/bg_boutons"
+
+                />
+
+
+            <Button
+                android:id="@+id/defenseur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joueur vs Joueur"
+                style="@style/AppButton"
+                android:textAllCaps="true"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_boutons"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bas_page"
+        android:layout_below="@+id/haut_page" >
+
+        <ImageView
+            android:id="@+id/info_icon"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/info" />
+
+        <ImageView
+            android:id="@+id/rules_image"
+            android:layout_above="@+id/info_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/rules"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/volume_icon"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/volume_active" />
+
+        <Button
+            android:id="@+id/mode_transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_boutons"
+            android:text="Mode Transparent\nActive"
+            style="@style/AppButton"
+            android:textAllCaps="true"
+            android:textSize="12sp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fond_defenseur"
+    >
+
+    <TextView
+        android:id="@+id/titreChoixDefenseur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="top|center"
+        android:text="Choix du defenseur"
+        android:textColor="@color/white"
+        android:textSize="58sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:fontFamily="@font/migh"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:id="@+id/rondCombDef0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent"
+            />
+        <ImageView
+            android:id="@+id/rondCombDef1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent"
+            />
+        <ImageView
+            android:id="@+id/rondCombDef2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent"
+            />
+        <ImageView
+            android:id="@+id/rondCombDef3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_below="@+id/linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        >
+
+
+        <ImageView
+            android:id="@+id/rondRougeDef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_rouge" />
+        <ImageView
+            android:id="@+id/rondVertDef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_vert" />
+
+        <ImageView
+            android:id="@+id/rondBleuDef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_bleu" />
+        <ImageView
+            android:id="@+id/rondJauneDef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_jaune" />
+
+        <ImageView
+            android:id="@+id/rondBlancDef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_blanc" />
+        <ImageView
+            android:id="@+id/rondNoirDef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_noir" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnValider"
+        android:layout_below="@+id/linear2"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valider"
+        android:layout_margin="8dp"
+        android:textAllCaps="true"
+        />
+</RelativeLayout>
+

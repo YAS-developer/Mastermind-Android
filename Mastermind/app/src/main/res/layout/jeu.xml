@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_jeu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_play"
+    >
+    <!-- LIGNE 0 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rond_Jeu_0_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_0_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_0_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_0_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_0_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_0_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_0_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_0_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+    </LinearLayout>
+    <!-- LIGNE 0 -->
+
+
+    <!-- LIGNE 1 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rond_Jeu_1_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_1_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+    </LinearLayout>
+    <!-- LIGNE 1 -->
+
+
+    <!-- LIGNE 2 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rond_Jeu_2_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_2_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+    </LinearLayout>
+    <!--  LIGNE 2  -->
+
+    <!--  LIGNE 3  -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rond_Jeu_3_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_3_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+    </LinearLayout>
+    <!--  LIGNE 3  -->
+
+
+    <!--  LIGNE 4  -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rond_Jeu_4_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_4_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_4_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_4_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+    </LinearLayout>
+    <!--  LIGNE 4  -->
+
+    <!--  LIGNE 5  -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rond_Jeu_5_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_5_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+    </LinearLayout>
+    <!--  LIGNE 5  -->
+
+    <!--  LIGNE 6  -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rond_Jeu_6_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_6_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_6_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_6_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_6_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_6_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_6_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_6_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+    </LinearLayout>
+    <!--  LIGNE 6  -->
+
+    <!--  LIGNE 7  -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rond_Jeu_7_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_7_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_7_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_7_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_7_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_7_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_7_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_7_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+    </LinearLayout>
+    <!--  LIGNE 7  -->
+
+
+
+    <!--  LIGNE 8  -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rond_Jeu_8_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_8_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_8_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_8_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_8_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_8_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_8_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_8_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+    </LinearLayout>
+    <!--  LIGNE 8  -->
+
+    <!--  LIGNE 9  -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rond_Jeu_9_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_9_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_9_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+        <ImageView
+            android:id="@+id/rond_Jeu_9_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_moyen"
+            />
+
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_9_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_9_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_9_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+        <ImageView
+            android:id="@+id/rond_reponse_Jeu_9_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_transparent_petit"
+            />
+
+    </LinearLayout>
+    <!--  LIGNE 9  -->
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/rondRougeJeu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_rouge" />
+
+        <ImageView
+            android:id="@+id/rondVertJeu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_vert" />
+
+        <ImageView
+            android:id="@+id/rondBleuJeu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_bleu" />
+        <ImageView
+            android:id="@+id/rondJauneJeu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_jaune" />
+
+        <ImageView
+            android:id="@+id/rondBlancJeu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_blanc" />
+
+        <ImageView
+            android:id="@+id/rondNoirJeu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/rond_noir" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/BtnValiderJeu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_margin="8dp"
+            android:textAllCaps="true"
+            />
+    </LinearLayout>
+
+</LinearLayout>
